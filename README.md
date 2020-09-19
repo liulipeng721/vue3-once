@@ -1,6 +1,6 @@
 # Vue3.0
 
-> 写的第一个Vue3.0 DEMO
+> Vue3.0 DEMO
 
 ### 安装 vite 工具 替代 webpack
 
