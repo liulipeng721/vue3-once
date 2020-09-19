@@ -64,16 +64,10 @@ Vue3.0项目目录<img style="vertical-align:middle;" src="../vue3-cmap/src/asse
 
 >Vue2.x中挂载元素对比
 ```
-  new Vue({
-    data: function() {
-			return {
-
-			};
-		}, 
-		methods: { 
-      		 
-		}
-  }).$mount(elID);
+new Vue({
+  router,
+  render: h => h(App)
+}).$mount('#app')
 
   new Vue({
     el: '#app',
